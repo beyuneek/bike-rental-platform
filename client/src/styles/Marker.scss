@@ -1,0 +1,32 @@
+// styles.scss
+
+.custom-marker-icon {
+    // Add your custom styling properties for the marker icon
+    // For example:
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    // border-radius: 50%;
+    border-color: black;
+  }
+  
+.form{
+  display: flex;
+  button{
+    margin:  0 0 0 20px;
+    height: auto;
+    color: white;
+    background: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+  }
+  input{
+    margin:10px;
+    height: 50px;
+    width:200px ;
+    padding: 10px 10px 10px 10px;
+  }
+  .no-space{
+    margin: 0;
+  }
+}

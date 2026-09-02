@@ -1,0 +1,100 @@
+.listing-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; // Add a bit of space from the bottom
+
+  @media only screen and (max-width: 576px) {
+    padding: 20px;
+  }
+
+  .Category {
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+    }
+  }
+
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 8px;
+    }
+  }
+
+  h2 {
+    br {
+      display: none;
+    }
+
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #1a1a1a;
+  }
+
+  hr {
+    margin: 20px 0;
+    border-color: #1a1a1a;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1a1a1a;
+  }
+
+  .date-range-calendar {
+    margin-top: 30px;
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 24px;
+      color: #1a1a1a;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .date-time {
+      font-size: 16px;
+      color: #1a1a1a;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      color: #fff;
+      background-color: #1a1a1a;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #333;
+      }
+
+      @media only screen and (min-width: 576px) {
+        max-width: 300px;
+        margin: 20px auto;
+      }
+    }
+  }
+}

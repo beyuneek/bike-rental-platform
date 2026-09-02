@@ -1,0 +1,69 @@
+// EditProfile.scss
+
+.edit-profile {
+    max-width: 400px; /* Set maximum width for the edit profile section */
+    margin: 0 auto; /* Center the edit profile section horizontally */
+    padding: 20px; /* Add padding to the edit profile section */
+    background-color: #f0f0f0; /* Grey background color for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the card */
+  
+    h1 {
+      text-align: center; /* Center align the heading */
+      margin-bottom: 20px; /* Add some space below the heading */
+    }
+  
+    .edit-profile-form {
+      display: flex; /* Use flexbox for form layout */
+      flex-direction: column; /* Arrange form elements in a column */
+      align-items: center; /* Center align form elements horizontally */
+      gap: 10px; /* Add some space between form elements */
+  
+      input[type='text'],
+      input[type='email'] {
+        width: 100%; /* Set width for text and email inputs */
+        padding: 10px; /* Add padding to inputs */
+        border: 1px solid #ccc; /* Add border to inputs */
+        border-radius: 5px; /* Add rounded corners to inputs */
+        outline: none; /* Remove outline on focus */
+      }
+  
+      input[type='file'] {
+        display: none; /* Hide file input */
+      }
+  
+      img {
+        max-width: 150px; /* Set maximum width for profile photo */
+        max-height: 150px; /* Set maximum height for profile photo */
+        margin-bottom: 10px; /* Add space below profile photo */
+      }
+  
+      label {
+        cursor: pointer; /* Change cursor to pointer on hover */
+        display: flex; /* Use flexbox for label layout */
+        flex-direction: column; /* Arrange label elements in a column */
+        align-items: center; /* Center align label elements horizontally */
+  
+        img {
+          max-width: 150px; /* Set maximum width for uploaded profile photo */
+          margin-bottom: 5px; /* Add space below uploaded profile photo */
+        }
+  
+        p {
+          margin: 0; /* Remove margin for paragraph element */
+        }
+      }
+  
+      button {
+        background-color: #007bff; /* Button background color */
+        color: #fff; /* Button text color */
+        padding: 10px 20px; /* Padding for the button */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Rounded corners for button */
+        cursor: pointer; /* Add cursor pointer on hover */
+        width: 100%; /* Set width for button */
+        max-width: 200px; /* Set maximum width for button */
+      }
+    }
+  }
+  
