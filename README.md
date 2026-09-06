@@ -18,6 +18,10 @@
   <img alt="Stripe" src="https://img.shields.io/badge/payments-Stripe-black?style=flat-square">
 </p>
 
+<p align="center">
+  <img src="docs/booking.gif" alt="A booking moving through browse, sign in, book, pay and store" width="820">
+</p>
+
 ---
 
 ## What it does
